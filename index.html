@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bodyy{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        margin-top: 20px;
+        background:  rgb(163, 162, 162);
+        width: 800px;
+        height: 400px;
+        display: flex;
+       
+
+    }
+    .cont_left{
+        margin-top: 20px;
+        width: 300px;
+        height: 400px;
+        background: rgb(163, 163, 155);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
+    }
+    .cont_both{
+        margin-top: 20px;
+        width: 300px;
+        height: 400px;
+        background: rgb(30, 177, 164);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cont_right{
+        margin-top: 20px;
+        width: 300px;
+        height: 400px;
+        background: rgb(163, 163, 155);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .cont_left p{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .cont_right p{
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+    .img{
+        background: white;
+        width: 250px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .image{
+        width: 100%;
+        height: 100%;
+    }
+    .green{
+        color: green;
+    }
+
+    .red{
+        color: red;
+
+    }
+    .black{
+        color: black;
+
+    }
+    
+
+
+</style>
+<body>
+    <div class="bodyy">
+    <div class="container">
+        
+
+        <div class="cont_left">
+            <div class="img">
+                <img id="meImage" class="image" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png" alt="">
+            </div>
+            <p class="left_header">ME</p>
+            <p id="meStatus" class="ready">Ready</p>
+            <p id="mePoint" class="score">0</p>
+        </div>
+
+
+
+        <div class="cont_both">
+            <H2>POKEMON GAME</H2>
+            <H2>VS</H1>
+            <button id="play_button">PLAY</button>
+        </div>
+
+
+
+
+        <div class="cont_right">
+            <div class="img">
+                <img id="compImage" class="image" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png" alt="">
+            </div>
+            <p class="right_header">Comp</p>
+            <p id="compStatus" class="ready">Ready</p>
+            <p id="compPoint" class="score">0</p>
+        </div>
+        
+        
+
+
+    </div>
+   
+</div>
+
+
+ 
+    <script src="index.js" ></script>
+    
+</body>
+</html>
